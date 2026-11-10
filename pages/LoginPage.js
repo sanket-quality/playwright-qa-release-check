@@ -20,7 +20,7 @@ async signIn(){
     await this.signInButton.click(); 
 }
 
-async navaigateToRegisterPage(){
+async navigateToRegisterPage(){
     await this.page.getByRole('link',{name:'Register'}).click();
 }
 
